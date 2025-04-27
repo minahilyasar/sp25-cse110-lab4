@@ -1,0 +1,2 @@
+1. The bug was that the input was retrieved as strings so summing them was resulting in them being concatenated. 
+2. To fix it we have to convert the variables to numbers which can be done using Number(num1) and Number(num2)
